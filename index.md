@@ -2,8 +2,13 @@
 <html>
 <head>
 <style>
-body {
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
   background-image: url("https://image.freepik.com/free-vector/abstract-dynamic-pattern-wallpaper-vector_53876-59131.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 </style>
 </head>
