@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="simple CV example created with HTML and CSS">
-  <meta name="author" content="Fly Nerd">
-  <link rel="icon" href="./img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
   <header>
-    <div>
-      <img src="./img/avatar.jpg" />
-    </div>
     <h1>Ocat Verdigris</h1>
     <section>
       <p>Hello! I am Ocat Verdigris. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
