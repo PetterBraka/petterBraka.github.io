@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>CV - Ocat</title>
   <meta name="description" content="simple CV example created with HTML and CSS">
   <meta name="author" content="Fly Nerd">
   <link rel="icon" href="./img/favicon.ico">
