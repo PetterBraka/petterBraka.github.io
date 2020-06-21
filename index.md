@@ -1,133 +1,35 @@
 <!DOCTYPE html>
 <html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 <body>
-  <header>
-    <h1>Ocat Verdigris</h1>
-    <section>
-      <p>Hello! I am Ocat Verdigris. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
-      <a href="https://www.facebook.com/flynerdpl/" target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://www.twitter.com/flynerdpl/" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/ritaly" target="_blank">
-        <i class="fab fa-github-alt"></i>
-      </a>
-      <a href="https://www.instagram.com/flynerdpl/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </section>
-  </header>
-  <main>
-    <section>
-      <h3>Courses & Workshops</h3>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udacity: Intro to HTML and CSS</h4>
-        </div>
-        <div class="descrition">
-          <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udemy: The Web Developer Bootcamp</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>EdX: Web Programming with JavaScript</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Django Girls: 2-Day Workshops</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn back-end development with simple blog application using Django  framework.</p>
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Skills</h3>
-      <div class='skills'>
-        <div class='column'>
-          <h4>Good knowledge</h4>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript ES5/6</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class='column'>
-          <h4>Basic knowledge</h4>
-          <ul>
-            <li>jQuery</li>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>Django</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Languages</h4>
-          <p>🇵🇱 Polish - Native speaker</p>
-          <p>🇬🇧 English - Proficient C1/C2</p>
-          <p>🇫🇷 French - Advanced - C1</p>
-          <p>🇪🇸 Spanish - Intermediate - B1/B2</p>
-          <p>🇩🇪 German - Elementary / Communicative - A2</p>
-        </div>
-      </div>
-    </section>
 
-    <section>
-      <h3>Education</h3>
-      <article>
-        <div class='school'>
-          <span>2015-2018</span> <strong>Octocats tech academy</strong>
-        </div>
-        <div class="descrition">
-          Bechelor Degree of Octorobotics
-        </div>
-      </article>
-      <article>
-        <div class='school'>
-          <span>2012-2015</span> <strong>Underwater kittens high school</strong>
-        </div>
-        <div>
-          Main subject: Cathemathics
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Experience</h3>
-      <article>
-        <div class='job-title'>
-          <span>03.2018 - 06.2018</span> <strong>Tentacles Company</strong><br> <strong>Position:</strong> Web developer Intern
-        </div>
-        <div>
-          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery</p>
-          <ul class="job-description">
-            <li>Develop web application for Octopoda departments</li>
-            <li>Implement UI (front-end site) based on received graphic design and requirements</li>
-            <li>Co-operate with the back-end team </li>
-          </ul>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>Created by: <a href="https://www.flynerd.pl/">@flynerd</a>  / <a href="https://www.linkedin.com/in/ritalyczywek/">LinkedIn</a> / 2018 </p>
-  </footer>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">30 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
 </body>
 </html>
