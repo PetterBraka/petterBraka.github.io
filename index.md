@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
+body,h1 {font-family: "Raleway", American-Typewriter}
 body, html {height: 100%}
 .bgimg {
   background-image: url("petterBraka.github.io/pexels-photo-236950.jpeg");
