@@ -115,7 +115,7 @@ button, input, select, textarea, optgroup {
 }
 
 optgroup {
-    font-weight: bold
+    font-weight: normal
 }
 
 button, input {
@@ -182,7 +182,7 @@ textarea {
 /* End extract */
 
 html, body {
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, sans-serif, 'Courier New';
     font-size: 15px;
     line-height: 1.5
 }
@@ -219,9 +219,9 @@ h6 {
     font-family: serif
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Segoe UI", Arial, sans-serif, monospace;
-    font-weight: 400;
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif, monospace, 'Courier New';
+    font-weight: normal;
     margin: 10px 0
 }
 
