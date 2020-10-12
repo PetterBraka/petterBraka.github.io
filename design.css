@@ -6,6 +6,7 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit
+    
 }
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -25,8 +26,18 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     overflow: hidden;
-    border-radius: 25%;
-  }
+    border-radius: 20px;
+}
+
+.backgroundCard {
+    border-radius: 20px;
+    border: 2px solid #313131;
+    width: auto;
+    height: auto; 
+    margin: 10px;
+    color: #000!important;
+    background-color: #313131!important
+}
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
     display: block
@@ -194,6 +205,7 @@ html, body {
     font-family: Verdana, sans-serif, 'Courier New';
     font-size: 15px;
     line-height: 1.5
+    
 }
 
 html {
@@ -907,7 +919,7 @@ a {
     position: absolute;
     text-align: center;
     left: 50%;
-    width: 80%;
+    width: 100%;
     bottom: 3%;
     transform: translate(-50%, -10%);
 }
