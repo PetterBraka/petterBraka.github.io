@@ -19,6 +19,15 @@ body {
     margin: 0
 }
 
+.avatar {
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    border-radius: 25%;
+  }
+
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
     display: block
 }
@@ -896,10 +905,11 @@ a {
 
 .display-bottom-middle-offGround {
     position: absolute;
+    text-align: center;
     left: 50%;
-    bottom: 5%;
-    transform: translate(-50%, 5%);
-    -ms-transform: translate(-50%, 5%)
+    width: 80%;
+    bottom: 3%;
+    transform: translate(-50%, -10%);
 }
 
 .display-container:hover .display-hover {
