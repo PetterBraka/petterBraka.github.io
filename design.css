@@ -243,10 +243,17 @@ h6 {
     font-family: serif
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Segoe UI", Arial, sans-serif, monospace, 'Courier New';
     font-weight: normal;
     margin: 10px 0
+}
+
+p {
+    font-family: "Segoe UI", Arial, sans-serif, monospace, 'Courier New';
+    font-weight: normal;
+    margin: 10px 0
+    font-size: 17px;
 }
 
 .wide {
