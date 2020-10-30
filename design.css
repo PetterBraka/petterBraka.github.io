@@ -831,6 +831,7 @@ a {
 }
 
 @media (min-width:993px) {
+
     .modal-content {
         width: 900px
     }
