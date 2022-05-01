@@ -7,9 +7,6 @@ function mostrar(e) {
         document.querySelector('#userName').style.color = '#fff';
 
         let links = document.querySelectorAll('.link');
-        // Pega apenas o primeiro do array
-        links[0].style.background.color = "#1337ab";
-        // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.background.color = "#2142ad";
         }
@@ -22,9 +19,6 @@ function mostrar(e) {
         document.querySelector('#userName').style.color = 'rgb(99, 99, 99)';
 
         let links = document.querySelectorAll('.link');
-        // Pega apenas o primeiro do array
-        links[0].style.background.color = "#426eff";
-        // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.background.color = "#426eff";
         }
