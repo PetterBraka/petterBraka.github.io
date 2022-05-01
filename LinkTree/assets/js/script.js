@@ -8,18 +8,10 @@ function mostrar(e) {
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        links[0].style.filter = 'grayscale(10%)';
+        // links[0].style.filter = 'grayscale(10%)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.filter = 'grayscale(10%)';
-        }
-
-        let circulos = document.querySelectorAll('.circulo');
-        // Pega apenas o primeiro do array
-        circulos[0].style.filter = 'grayscale(10%)';
-        // pega todos
-        for (let i = 0; i < circulos.length; i++) {
-            circulos[i].style.filter = 'grayscale(10%)';
+            links[i].style.background.color: rgb(66, 110, 255);
         }
 
     } else { //senão
