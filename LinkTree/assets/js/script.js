@@ -8,7 +8,7 @@ function mostrar(e) {
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        // links[0].style.filter = 'grayscale(10%)';
+        links[0].style.background.color = "#1337ab";
         // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.background.color = "#2142ad";
@@ -17,13 +17,13 @@ function mostrar(e) {
     } else { //senão
         e.classList.remove("fa-sun-o"); //remove classe icone lua
         e.classList.add("fa-moon-o"); //coloca classedo sol
-        e.style.color = "#585858";
+        e.style.color = "#2155ff";
         document.body.style.background = 'rgb(243, 242, 242)';
         document.querySelector('#userName').style.color = 'rgb(99, 99, 99)';
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        links[0].style.filter = 'grayscale(0%)';
+        links[0].style.background.color = "#426eff";
         // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.background.color = "#426eff";
