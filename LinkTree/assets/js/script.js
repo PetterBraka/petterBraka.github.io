@@ -14,7 +14,7 @@ function mostrar(e) {
     } else { //senão
         e.classList.remove("fa-sun-o"); //remove classe icone lua
         e.classList.add("fa-moon-o"); //coloca classedo sol
-        e.style.color = "#2155ff";
+        e.style.color = "rgb(33, 85, 255)";
         document.body.style.background = 'rgb(243, 242, 242)';
         document.querySelector('#userName').style.color = 'rgb(99, 99, 99)';
 

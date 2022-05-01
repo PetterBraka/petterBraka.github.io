@@ -93,7 +93,7 @@ body {
     top: 25px;
     right: 30px;
     z-index: 10000000;
-    color: #585858;
+    color: rgb(33, 85, 255);
 }
 
 .night_mode:hover {
