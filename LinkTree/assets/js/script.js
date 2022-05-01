@@ -8,7 +8,7 @@ function mostrar(e) {
 
         let links = document.querySelectorAll('.link');
         // Pega apenas o primeiro do array
-        links[0].style.filter = 'grayscale(100%)';
+        links[0].style.filter = 'grayscale(10%)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
             links[i].style.filter = 'grayscale(10%)';
@@ -16,10 +16,10 @@ function mostrar(e) {
 
         let circulos = document.querySelectorAll('.circulo');
         // Pega apenas o primeiro do array
-        circulos[0].style.filter = 'grayscale(100%)';
+        circulos[0].style.filter = 'grayscale(10%)';
         // pega todos
         for (let i = 0; i < circulos.length; i++) {
-            circulos[i].style.filter = 'grayscale(100%)';
+            circulos[i].style.filter = 'grayscale(10%)';
         }
 
     } else { //senão
