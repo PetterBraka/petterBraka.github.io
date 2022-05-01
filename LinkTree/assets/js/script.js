@@ -11,7 +11,7 @@ function mostrar(e) {
         // links[0].style.filter = 'grayscale(10%)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.background.color: rgb(66, 110, 255);
+            links[i].style.background.color = "#2142ad";
         }
 
     } else { //senão
@@ -26,15 +26,7 @@ function mostrar(e) {
         links[0].style.filter = 'grayscale(0%)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.filter = 'grayscale(0%)';
-        }
-
-        let circulos = document.querySelectorAll('.circulo');
-        // Pega apenas o primeiro do array
-        circulos[0].style.filter = 'grayscale(0%)';
-        // pega todos
-        for (let i = 0; i < circulos.length; i++) {
-            circulos[i].style.filter = 'grayscale(0%)';
+            links[i].style.background.color = "#426eff";
         }
     }
 
