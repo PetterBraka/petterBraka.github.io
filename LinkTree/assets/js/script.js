@@ -11,7 +11,7 @@ function mostrar(e) {
         links[0].style.filter = 'grayscale(100%)';
         // pega todos
         for (let i = 0; i < links.length; i++) {
-            links[i].style.filter = 'grayscale(100%)';
+            links[i].style.filter = 'grayscale(10%)';
         }
 
         let circulos = document.querySelectorAll('.circulo');
